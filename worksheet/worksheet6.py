@@ -111,9 +111,9 @@ amount = 10
 
 if n > 0:
     for age in range(1, n+1):
-        if age % 2 == 1:   # odd birthday
+        if age % 2 == 1:  
             toys += 1
-        else:              # even birthday
+        else:         
             money += amount - 1
             amount += 10
 
