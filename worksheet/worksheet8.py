@@ -95,21 +95,61 @@
 
 # letter_count("Mississippi",'s')
 
-def palindrome(content):
-    a =""
-    for i in range(len(content)-1,-1,-1):
-        a += content[i]
+# def palindrome(content):
+#     a =""
+#     for i in range(len(content)-1,-1,-1):
+#         a += content[i]
 
-    if a == content :
-        print("Yes")
-    else:
-        print("No")
+#     if a == content :
+#         print("Yes")
+#     else:
+#         print("No")
 
-palindrome("Hello")
-palindrome("madam")
-
-
-
-    
+# palindrome("Hello")
+# palindrome("madam")
 
 
+# def avg_numbers(numbers):
+#     total = 0
+#     for i in numbers:
+#         total += i
+#     avg = total / len(numbers)
+#     result = []
+#     for num in numbers:
+#         result.append(num - avg)
+
+#     print(result)
+
+
+# avg_numbers([10, 20, 30])
+
+
+# def square_numbers(num):
+#     s = []
+#     for i in num:
+#         s.append(i * i)
+#     print(s)
+
+# square_numbers([2, 3, 4, 5])
+
+
+# def number_count(number,target):
+#     count = 0
+#     for i in number:
+#         if i == target:
+#             count += 1
+#     print(count)
+
+# number_count([3, 5, 3, 8, 3, 9],5)
+
+def rem_minus_num(numbers):
+    result = []
+    for num in numbers:
+        if num < 0:
+            result.append(0)
+        else:
+            result.append(num)
+
+    print(result)
+
+rem_minus_num([5, -3, 9, -8, 2])
